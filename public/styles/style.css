@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+button:active {
+    color: yellow;
+    box-shadow: inset 0px 0px 3px 2px rgba(255, 255, 255, 1);
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.board {
+    height: 50vh;
+}
+
+.controlls {
+    border: 2px solid white;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.directions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 100px;
+    gap: 10px;
+}
+
+.directions button {
+    height: 40px;
+    width: 40px;
+}
+
+.move-up {
+    grid-column: 2 / 3;
+    grid-row: 0 / 1;
+}
+
+.move-left {
+    grid-column: 0 / 1;
+    grid-row: 2 / 3;
+}
+
+.move-right {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.move-down {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.actions {}
