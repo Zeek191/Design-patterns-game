@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Left - up",
+    "description": "You are in Left - up",
+    "directions": {
+      "direction_up": null,
+      "direction_right": 2,
+      "direction_down": 3,
+      "direction_left": null
+    }
+  },
+  {
+    "id": 2,
+    "name": "Right - up",
+    "description": "You are in Right - up",
+    "directions": {
+      "direction_up": null,
+      "direction_right": null,
+      "direction_down": 4,
+      "direction_left": 1
+    }
+  },
+  {
+    "id": 3,
+    "name": "Left - down",
+    "description": "You are in Left - down",
+    "directions": {
+      "direction_up": 1,
+      "direction_right": 4,
+      "direction_down": null,
+      "direction_left": null
+    }
+  },
+  {
+    "id": 4,
+    "name": "Right - down",
+    "description": "You are in Right - down",
+    "directions": {
+      "direction_up": 2,
+      "direction_right": null,
+      "direction_down": null,
+      "direction_left": 3
+    }
+  }
+]
